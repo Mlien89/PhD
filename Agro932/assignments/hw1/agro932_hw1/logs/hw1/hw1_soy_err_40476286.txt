@@ -1,0 +1,215 @@
+[wgsim] seed = 1234567
+[wgsim_core] calculating the total length of the reference sequence...
+[wgsim_core] 1 sequences, total length: 2627
+[wgsim] seed = 1644946851
+[wgsim_core] calculating the total length of the reference sequence...
+[wgsim_core] 1 sequences, total length: 2627
+[wgsim] seed = 1644946851
+[wgsim_core] calculating the total length of the reference sequence...
+[wgsim_core] 1 sequences, total length: 2627
+[wgsim] seed = 1644946851
+[wgsim_core] calculating the total length of the reference sequence...
+[wgsim_core] 1 sequences, total length: 2627
+[wgsim] seed = 1644946851
+[wgsim_core] calculating the total length of the reference sequence...
+[wgsim_core] 1 sequences, total length: 2627
+[wgsim] seed = 1644946851
+[wgsim_core] calculating the total length of the reference sequence...
+[wgsim_core] 1 sequences, total length: 2627
+[wgsim] seed = 1644946851
+[wgsim_core] calculating the total length of the reference sequence...
+[wgsim_core] 1 sequences, total length: 2627
+[wgsim] seed = 1644946851
+[wgsim_core] calculating the total length of the reference sequence...
+[wgsim_core] 1 sequences, total length: 2627
+[wgsim] seed = 1644946851
+[wgsim_core] calculating the total length of the reference sequence...
+[wgsim_core] 1 sequences, total length: 2627
+[wgsim] seed = 1644946851
+[wgsim_core] calculating the total length of the reference sequence...
+[wgsim_core] 1 sequences, total length: 2627
+[wgsim] seed = 1644946851
+[wgsim_core] calculating the total length of the reference sequence...
+[wgsim_core] 1 sequences, total length: 2627
+[bwa_index] Pack FASTA... 0.00 sec
+[bwa_index] Construct BWT for the packed sequence...
+[bwa_index] 0.00 seconds elapse.
+[bwa_index] Update BWT... 0.00 sec
+[bwa_index] Pack forward-only FASTA... 0.00 sec
+[bwa_index] Construct SA from BWT and Occ... 0.00 sec
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa index GLYMA_12G06630.fa
+[main] Real time: 0.059 sec; CPU: 0.005 sec
+[M::bwa_idx_load_from_disk] read 0 ALT contigs
+[M::process] read 1000 sequences (100000 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 500, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (470, 503, 534)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (342, 662)
+[M::mem_pestat] mean and std.dev: (501.47, 49.05)
+[M::mem_pestat] low and high boundaries for proper pairs: (278, 726)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::mem_process_seqs] Processed 1000 reads in 0.025 CPU sec, 0.038 real sec
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa mem GLYMA_12G06630.fa l1.R1.fq l1.R2.fq
+[main] Real time: 0.121 sec; CPU: 0.029 sec
+[M::bwa_idx_load_from_disk] read 0 ALT contigs
+[M::process] read 1000 sequences (100000 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 500, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (470, 503, 534)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (342, 662)
+[M::mem_pestat] mean and std.dev: (501.47, 49.05)
+[M::mem_pestat] low and high boundaries for proper pairs: (278, 726)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::mem_process_seqs] Processed 1000 reads in 0.025 CPU sec, 0.035 real sec
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa mem GLYMA_12G06630.fa l2.R1.fq l2.R2.fq
+[main] Real time: 0.076 sec; CPU: 0.029 sec
+[M::bwa_idx_load_from_disk] read 0 ALT contigs
+[M::process] read 1000 sequences (100000 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 500, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (470, 503, 534)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (342, 662)
+[M::mem_pestat] mean and std.dev: (501.47, 49.05)
+[M::mem_pestat] low and high boundaries for proper pairs: (278, 726)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::mem_process_seqs] Processed 1000 reads in 0.025 CPU sec, 0.033 real sec
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa mem GLYMA_12G06630.fa l3.R1.fq l3.R2.fq
+[main] Real time: 0.070 sec; CPU: 0.028 sec
+[M::bwa_idx_load_from_disk] read 0 ALT contigs
+[M::process] read 1000 sequences (100000 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 500, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (470, 503, 534)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (342, 662)
+[M::mem_pestat] mean and std.dev: (501.47, 49.05)
+[M::mem_pestat] low and high boundaries for proper pairs: (278, 726)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::mem_process_seqs] Processed 1000 reads in 0.025 CPU sec, 0.033 real sec
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa mem GLYMA_12G06630.fa l4.R1.fq l4.R2.fq
+[main] Real time: 0.067 sec; CPU: 0.028 sec
+[M::bwa_idx_load_from_disk] read 0 ALT contigs
+[M::process] read 1000 sequences (100000 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 500, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (470, 503, 534)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (342, 662)
+[M::mem_pestat] mean and std.dev: (501.47, 49.05)
+[M::mem_pestat] low and high boundaries for proper pairs: (278, 726)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::mem_process_seqs] Processed 1000 reads in 0.025 CPU sec, 0.032 real sec
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa mem GLYMA_12G06630.fa l5.R1.fq l5.R2.fq
+[main] Real time: 0.071 sec; CPU: 0.028 sec
+[M::bwa_idx_load_from_disk] read 0 ALT contigs
+[M::process] read 1000 sequences (100000 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 500, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (470, 503, 534)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (342, 662)
+[M::mem_pestat] mean and std.dev: (501.47, 49.05)
+[M::mem_pestat] low and high boundaries for proper pairs: (278, 726)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::mem_process_seqs] Processed 1000 reads in 0.025 CPU sec, 0.033 real sec
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa mem GLYMA_12G06630.fa l6.R1.fq l6.R2.fq
+[main] Real time: 0.067 sec; CPU: 0.029 sec
+[M::bwa_idx_load_from_disk] read 0 ALT contigs
+[M::process] read 1000 sequences (100000 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 500, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (470, 503, 534)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (342, 662)
+[M::mem_pestat] mean and std.dev: (501.47, 49.05)
+[M::mem_pestat] low and high boundaries for proper pairs: (278, 726)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::mem_process_seqs] Processed 1000 reads in 0.025 CPU sec, 0.033 real sec
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa mem GLYMA_12G06630.fa l7.R1.fq l7.R2.fq
+[main] Real time: 0.067 sec; CPU: 0.028 sec
+[M::bwa_idx_load_from_disk] read 0 ALT contigs
+[M::process] read 1000 sequences (100000 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 500, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (470, 503, 534)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (342, 662)
+[M::mem_pestat] mean and std.dev: (501.47, 49.05)
+[M::mem_pestat] low and high boundaries for proper pairs: (278, 726)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::mem_process_seqs] Processed 1000 reads in 0.025 CPU sec, 0.033 real sec
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa mem GLYMA_12G06630.fa l8.R1.fq l8.R2.fq
+[main] Real time: 0.067 sec; CPU: 0.028 sec
+[M::bwa_idx_load_from_disk] read 0 ALT contigs
+[M::process] read 1000 sequences (100000 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 500, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (470, 503, 534)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (342, 662)
+[M::mem_pestat] mean and std.dev: (501.47, 49.05)
+[M::mem_pestat] low and high boundaries for proper pairs: (278, 726)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::mem_process_seqs] Processed 1000 reads in 0.024 CPU sec, 0.032 real sec
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa mem GLYMA_12G06630.fa l9.R1.fq l9.R2.fq
+[main] Real time: 0.065 sec; CPU: 0.028 sec
+[M::bwa_idx_load_from_disk] read 0 ALT contigs
+[M::process] read 1000 sequences (100000 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 500, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (470, 503, 534)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (342, 662)
+[M::mem_pestat] mean and std.dev: (501.47, 49.05)
+[M::mem_pestat] low and high boundaries for proper pairs: (278, 726)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::mem_process_seqs] Processed 1000 reads in 0.025 CPU sec, 0.033 real sec
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa mem GLYMA_12G06630.fa l10.R1.fq l10.R2.fq
+[main] Real time: 0.065 sec; CPU: 0.028 sec
+[M::bwa_idx_load_from_disk] read 0 ALT contigs
+[E::main_mem] fail to open file `l11.R1.fq'.
+[M::bwa_idx_load_from_disk] read 0 ALT contigs
+[E::main_mem] fail to open file `l12.R1.fq'.
+[M::bwa_idx_load_from_disk] read 0 ALT contigs
+[E::main_mem] fail to open file `l13.R1.fq'.
+[M::bwa_idx_load_from_disk] read 0 ALT contigs
+[E::main_mem] fail to open file `l14.R1.fq'.
+[M::bwa_idx_load_from_disk] read 0 ALT contigs
+[E::main_mem] fail to open file `l15.R1.fq'.
+[M::bwa_idx_load_from_disk] read 0 ALT contigs
+[E::main_mem] fail to open file `l16.R1.fq'.
+[M::bwa_idx_load_from_disk] read 0 ALT contigs
+[E::main_mem] fail to open file `l17.R1.fq'.
+[M::bwa_idx_load_from_disk] read 0 ALT contigs
+[E::main_mem] fail to open file `l18.R1.fq'.
+[M::bwa_idx_load_from_disk] read 0 ALT contigs
+[E::main_mem] fail to open file `l19.R1.fq'.
+[M::bwa_idx_load_from_disk] read 0 ALT contigs
+[E::main_mem] fail to open file `l20.R1.fq'.
+[warning] samtools mpileup option `g` is functional, but deprecated. Please switch to using bcftools mpileup in future.
+[mpileup] 20 samples in 20 input files
+Note: none of --samples-file, --ploidy or --ploidy-file given, assuming all sites are diploid
