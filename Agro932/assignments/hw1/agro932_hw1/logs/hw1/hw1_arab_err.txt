@@ -1,195 +1,195 @@
 [wgsim] seed = 1234567
 [wgsim_core] calculating the total length of the reference sequence...
-[wgsim_core] 1 sequences, total length: 19698289
-[wgsim] seed = 1644948194
+[wgsim_core] 1 sequences, total length: 366924
+[wgsim] seed = 1644956105
 [wgsim_core] calculating the total length of the reference sequence...
-[wgsim_core] 1 sequences, total length: 19698289
-[wgsim] seed = 1644948196
+[wgsim_core] 1 sequences, total length: 366924
+[wgsim] seed = 1644956106
 [wgsim_core] calculating the total length of the reference sequence...
-[wgsim_core] 1 sequences, total length: 19698289
-[wgsim] seed = 1644948197
+[wgsim_core] 1 sequences, total length: 366924
+[wgsim] seed = 1644956106
 [wgsim_core] calculating the total length of the reference sequence...
-[wgsim_core] 1 sequences, total length: 19698289
-[wgsim] seed = 1644948198
+[wgsim_core] 1 sequences, total length: 366924
+[wgsim] seed = 1644956106
 [wgsim_core] calculating the total length of the reference sequence...
-[wgsim_core] 1 sequences, total length: 19698289
-[wgsim] seed = 1644948199
+[wgsim_core] 1 sequences, total length: 366924
+[wgsim] seed = 1644956106
 [wgsim_core] calculating the total length of the reference sequence...
-[wgsim_core] 1 sequences, total length: 19698289
-[wgsim] seed = 1644948201
+[wgsim_core] 1 sequences, total length: 366924
+[wgsim] seed = 1644956106
 [wgsim_core] calculating the total length of the reference sequence...
-[wgsim_core] 1 sequences, total length: 19698289
-[wgsim] seed = 1644948202
+[wgsim_core] 1 sequences, total length: 366924
+[wgsim] seed = 1644956106
 [wgsim_core] calculating the total length of the reference sequence...
-[wgsim_core] 1 sequences, total length: 19698289
-[wgsim] seed = 1644948203
+[wgsim_core] 1 sequences, total length: 366924
+[wgsim] seed = 1644956106
 [wgsim_core] calculating the total length of the reference sequence...
-[wgsim_core] 1 sequences, total length: 19698289
-[wgsim] seed = 1644948205
+[wgsim_core] 1 sequences, total length: 366924
+[wgsim] seed = 1644956106
 [wgsim_core] calculating the total length of the reference sequence...
-[wgsim_core] 1 sequences, total length: 19698289
-[wgsim] seed = 1644948206
+[wgsim_core] 1 sequences, total length: 366924
+[wgsim] seed = 1644956106
 [wgsim_core] calculating the total length of the reference sequence...
-[wgsim_core] 1 sequences, total length: 19698289
-[bwa_index] Pack FASTA... 0.18 sec
+[wgsim_core] 1 sequences, total length: 366924
+[bwa_index] Pack FASTA... 0.00 sec
 [bwa_index] Construct BWT for the packed sequence...
-[bwa_index] 5.45 seconds elapse.
-[bwa_index] Update BWT... 0.12 sec
-[bwa_index] Pack forward-only FASTA... 0.12 sec
-[bwa_index] Construct SA from BWT and Occ... 2.06 sec
+[bwa_index] 0.07 seconds elapse.
+[bwa_index] Update BWT... 0.00 sec
+[bwa_index] Pack forward-only FASTA... 0.00 sec
+[bwa_index] Construct SA from BWT and Occ... 0.04 sec
 [main] Version: 0.7.17-r1188
-[main] CMD: bwa index Arabidopsis_thaliana.TAIR10.dna.chromosome.2.fa
-[main] Real time: 9.764 sec; CPU: 7.931 sec
+[main] CMD: bwa index Arabidopsis_thaliana.TAIR10.dna.chromosome.Mt.fa
+[main] Real time: 0.207 sec; CPU: 0.123 sec
 [M::bwa_idx_load_from_disk] read 0 ALT contigs
 [M::process] read 10000 sequences (1000000 bp)...
-[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 4610, 0, 0)
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 4452, 0, 0)
 [M::mem_pestat] skip orientation FF as there are not enough pairs
 [M::mem_pestat] analyzing insert size distribution for orientation FR...
-[M::mem_pestat] (25, 50, 75) percentile: (466, 500, 532)
-[M::mem_pestat] low and high boundaries for computing mean and std.dev: (334, 664)
-[M::mem_pestat] mean and std.dev: (499.58, 49.09)
-[M::mem_pestat] low and high boundaries for proper pairs: (268, 730)
-[M::mem_pestat] skip orientation RF as there are not enough pairs
-[M::mem_pestat] skip orientation RR as there are not enough pairs
-[M::mem_process_seqs] Processed 10000 reads in 0.522 CPU sec, 0.532 real sec
-[main] Version: 0.7.17-r1188
-[main] CMD: bwa mem Arabidopsis_thaliana.TAIR10.dna.chromosome.2.fa l1.R1.fq l1.R2.fq
-[main] Real time: 1.434 sec; CPU: 0.609 sec
-[M::bwa_idx_load_from_disk] read 0 ALT contigs
-[M::process] read 10000 sequences (1000000 bp)...
-[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 4627, 0, 0)
-[M::mem_pestat] skip orientation FF as there are not enough pairs
-[M::mem_pestat] analyzing insert size distribution for orientation FR...
-[M::mem_pestat] (25, 50, 75) percentile: (465, 499, 532)
-[M::mem_pestat] low and high boundaries for computing mean and std.dev: (331, 666)
-[M::mem_pestat] mean and std.dev: (499.24, 49.88)
-[M::mem_pestat] low and high boundaries for proper pairs: (264, 733)
-[M::mem_pestat] skip orientation RF as there are not enough pairs
-[M::mem_pestat] skip orientation RR as there are not enough pairs
-[M::mem_process_seqs] Processed 10000 reads in 0.519 CPU sec, 0.531 real sec
-[main] Version: 0.7.17-r1188
-[main] CMD: bwa mem Arabidopsis_thaliana.TAIR10.dna.chromosome.2.fa l2.R1.fq l2.R2.fq
-[main] Real time: 0.972 sec; CPU: 0.606 sec
-[M::bwa_idx_load_from_disk] read 0 ALT contigs
-[M::process] read 10000 sequences (1000000 bp)...
-[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 4593, 0, 0)
-[M::mem_pestat] skip orientation FF as there are not enough pairs
-[M::mem_pestat] analyzing insert size distribution for orientation FR...
-[M::mem_pestat] (25, 50, 75) percentile: (464, 498, 533)
-[M::mem_pestat] low and high boundaries for computing mean and std.dev: (326, 671)
-[M::mem_pestat] mean and std.dev: (498.38, 50.29)
-[M::mem_pestat] low and high boundaries for proper pairs: (257, 740)
-[M::mem_pestat] skip orientation RF as there are not enough pairs
-[M::mem_pestat] skip orientation RR as there are not enough pairs
-[M::mem_process_seqs] Processed 10000 reads in 0.525 CPU sec, 0.537 real sec
-[main] Version: 0.7.17-r1188
-[main] CMD: bwa mem Arabidopsis_thaliana.TAIR10.dna.chromosome.2.fa l3.R1.fq l3.R2.fq
-[main] Real time: 1.170 sec; CPU: 0.614 sec
-[M::bwa_idx_load_from_disk] read 0 ALT contigs
-[M::process] read 10000 sequences (1000000 bp)...
-[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 4617, 0, 0)
-[M::mem_pestat] skip orientation FF as there are not enough pairs
-[M::mem_pestat] analyzing insert size distribution for orientation FR...
-[M::mem_pestat] (25, 50, 75) percentile: (465, 499, 533)
-[M::mem_pestat] low and high boundaries for computing mean and std.dev: (329, 669)
-[M::mem_pestat] mean and std.dev: (498.95, 49.88)
-[M::mem_pestat] low and high boundaries for proper pairs: (261, 737)
-[M::mem_pestat] skip orientation RF as there are not enough pairs
-[M::mem_pestat] skip orientation RR as there are not enough pairs
-[M::mem_process_seqs] Processed 10000 reads in 0.525 CPU sec, 0.535 real sec
-[main] Version: 0.7.17-r1188
-[main] CMD: bwa mem Arabidopsis_thaliana.TAIR10.dna.chromosome.2.fa l4.R1.fq l4.R2.fq
-[main] Real time: 0.985 sec; CPU: 0.614 sec
-[M::bwa_idx_load_from_disk] read 0 ALT contigs
-[M::process] read 10000 sequences (1000000 bp)...
-[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 4605, 0, 0)
-[M::mem_pestat] skip orientation FF as there are not enough pairs
-[M::mem_pestat] analyzing insert size distribution for orientation FR...
-[M::mem_pestat] (25, 50, 75) percentile: (465, 499, 534)
-[M::mem_pestat] low and high boundaries for computing mean and std.dev: (327, 672)
-[M::mem_pestat] mean and std.dev: (499.35, 50.63)
-[M::mem_pestat] low and high boundaries for proper pairs: (258, 741)
-[M::mem_pestat] skip orientation RF as there are not enough pairs
-[M::mem_pestat] skip orientation RR as there are not enough pairs
-[M::mem_process_seqs] Processed 10000 reads in 0.525 CPU sec, 0.535 real sec
-[main] Version: 0.7.17-r1188
-[main] CMD: bwa mem Arabidopsis_thaliana.TAIR10.dna.chromosome.2.fa l5.R1.fq l5.R2.fq
-[main] Real time: 1.238 sec; CPU: 0.615 sec
-[M::bwa_idx_load_from_disk] read 0 ALT contigs
-[M::process] read 10000 sequences (1000000 bp)...
-[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 4646, 0, 0)
-[M::mem_pestat] skip orientation FF as there are not enough pairs
-[M::mem_pestat] analyzing insert size distribution for orientation FR...
-[M::mem_pestat] (25, 50, 75) percentile: (464, 497, 533)
-[M::mem_pestat] low and high boundaries for computing mean and std.dev: (326, 671)
-[M::mem_pestat] mean and std.dev: (498.88, 50.12)
-[M::mem_pestat] low and high boundaries for proper pairs: (257, 740)
-[M::mem_pestat] skip orientation RF as there are not enough pairs
-[M::mem_pestat] skip orientation RR as there are not enough pairs
-[M::mem_process_seqs] Processed 10000 reads in 0.517 CPU sec, 0.528 real sec
-[main] Version: 0.7.17-r1188
-[main] CMD: bwa mem Arabidopsis_thaliana.TAIR10.dna.chromosome.2.fa l6.R1.fq l6.R2.fq
-[main] Real time: 0.965 sec; CPU: 0.607 sec
-[M::bwa_idx_load_from_disk] read 0 ALT contigs
-[M::process] read 10000 sequences (1000000 bp)...
-[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 4587, 0, 0)
-[M::mem_pestat] skip orientation FF as there are not enough pairs
-[M::mem_pestat] analyzing insert size distribution for orientation FR...
-[M::mem_pestat] (25, 50, 75) percentile: (467, 499, 532)
-[M::mem_pestat] low and high boundaries for computing mean and std.dev: (337, 662)
-[M::mem_pestat] mean and std.dev: (498.57, 48.73)
-[M::mem_pestat] low and high boundaries for proper pairs: (272, 727)
-[M::mem_pestat] skip orientation RF as there are not enough pairs
-[M::mem_pestat] skip orientation RR as there are not enough pairs
-[M::mem_process_seqs] Processed 10000 reads in 0.531 CPU sec, 0.542 real sec
-[main] Version: 0.7.17-r1188
-[main] CMD: bwa mem Arabidopsis_thaliana.TAIR10.dna.chromosome.2.fa l7.R1.fq l7.R2.fq
-[main] Real time: 1.367 sec; CPU: 0.621 sec
-[M::bwa_idx_load_from_disk] read 0 ALT contigs
-[M::process] read 10000 sequences (1000000 bp)...
-[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 4652, 0, 0)
-[M::mem_pestat] skip orientation FF as there are not enough pairs
-[M::mem_pestat] analyzing insert size distribution for orientation FR...
-[M::mem_pestat] (25, 50, 75) percentile: (466, 499, 532)
-[M::mem_pestat] low and high boundaries for computing mean and std.dev: (334, 664)
-[M::mem_pestat] mean and std.dev: (499.13, 49.88)
-[M::mem_pestat] low and high boundaries for proper pairs: (268, 730)
-[M::mem_pestat] skip orientation RF as there are not enough pairs
-[M::mem_pestat] skip orientation RR as there are not enough pairs
-[M::mem_process_seqs] Processed 10000 reads in 0.514 CPU sec, 0.525 real sec
-[main] Version: 0.7.17-r1188
-[main] CMD: bwa mem Arabidopsis_thaliana.TAIR10.dna.chromosome.2.fa l8.R1.fq l8.R2.fq
-[main] Real time: 1.160 sec; CPU: 0.605 sec
-[M::bwa_idx_load_from_disk] read 0 ALT contigs
-[M::process] read 10000 sequences (1000000 bp)...
-[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 4625, 0, 0)
-[M::mem_pestat] skip orientation FF as there are not enough pairs
-[M::mem_pestat] analyzing insert size distribution for orientation FR...
-[M::mem_pestat] (25, 50, 75) percentile: (466, 499, 533)
+[M::mem_pestat] (25, 50, 75) percentile: (466, 500, 533)
 [M::mem_pestat] low and high boundaries for computing mean and std.dev: (332, 667)
-[M::mem_pestat] mean and std.dev: (499.13, 49.52)
+[M::mem_pestat] mean and std.dev: (500.70, 49.79)
 [M::mem_pestat] low and high boundaries for proper pairs: (265, 734)
 [M::mem_pestat] skip orientation RF as there are not enough pairs
 [M::mem_pestat] skip orientation RR as there are not enough pairs
-[M::mem_process_seqs] Processed 10000 reads in 0.528 CPU sec, 0.539 real sec
+[M::mem_process_seqs] Processed 10000 reads in 0.407 CPU sec, 0.428 real sec
 [main] Version: 0.7.17-r1188
-[main] CMD: bwa mem Arabidopsis_thaliana.TAIR10.dna.chromosome.2.fa l9.R1.fq l9.R2.fq
-[main] Real time: 0.982 sec; CPU: 0.617 sec
+[main] CMD: bwa mem Arabidopsis_thaliana.TAIR10.dna.chromosome.Mt.fa l1.R1.fq l1.R2.fq
+[main] Real time: 0.585 sec; CPU: 0.426 sec
 [M::bwa_idx_load_from_disk] read 0 ALT contigs
 [M::process] read 10000 sequences (1000000 bp)...
-[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 4609, 0, 0)
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 4432, 0, 0)
 [M::mem_pestat] skip orientation FF as there are not enough pairs
 [M::mem_pestat] analyzing insert size distribution for orientation FR...
-[M::mem_pestat] (25, 50, 75) percentile: (465, 497, 530)
-[M::mem_pestat] low and high boundaries for computing mean and std.dev: (335, 660)
-[M::mem_pestat] mean and std.dev: (497.71, 48.45)
-[M::mem_pestat] low and high boundaries for proper pairs: (270, 725)
+[M::mem_pestat] (25, 50, 75) percentile: (464, 496, 532)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (328, 668)
+[M::mem_pestat] mean and std.dev: (497.63, 50.00)
+[M::mem_pestat] low and high boundaries for proper pairs: (260, 736)
 [M::mem_pestat] skip orientation RF as there are not enough pairs
 [M::mem_pestat] skip orientation RR as there are not enough pairs
-[M::mem_process_seqs] Processed 10000 reads in 0.518 CPU sec, 0.528 real sec
+[M::mem_process_seqs] Processed 10000 reads in 0.402 CPU sec, 0.412 real sec
 [main] Version: 0.7.17-r1188
-[main] CMD: bwa mem Arabidopsis_thaliana.TAIR10.dna.chromosome.2.fa l10.R1.fq l10.R2.fq
-[main] Real time: 0.980 sec; CPU: 0.607 sec
+[main] CMD: bwa mem Arabidopsis_thaliana.TAIR10.dna.chromosome.Mt.fa l2.R1.fq l2.R2.fq
+[main] Real time: 0.547 sec; CPU: 0.421 sec
+[M::bwa_idx_load_from_disk] read 0 ALT contigs
+[M::process] read 10000 sequences (1000000 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 4432, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (464, 496, 532)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (328, 668)
+[M::mem_pestat] mean and std.dev: (497.63, 50.00)
+[M::mem_pestat] low and high boundaries for proper pairs: (260, 736)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::mem_process_seqs] Processed 10000 reads in 0.397 CPU sec, 0.406 real sec
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa mem Arabidopsis_thaliana.TAIR10.dna.chromosome.Mt.fa l3.R1.fq l3.R2.fq
+[main] Real time: 0.557 sec; CPU: 0.415 sec
+[M::bwa_idx_load_from_disk] read 0 ALT contigs
+[M::process] read 10000 sequences (1000000 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 4432, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (464, 496, 532)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (328, 668)
+[M::mem_pestat] mean and std.dev: (497.63, 50.00)
+[M::mem_pestat] low and high boundaries for proper pairs: (260, 736)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::mem_process_seqs] Processed 10000 reads in 0.397 CPU sec, 0.407 real sec
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa mem Arabidopsis_thaliana.TAIR10.dna.chromosome.Mt.fa l4.R1.fq l4.R2.fq
+[main] Real time: 0.550 sec; CPU: 0.416 sec
+[M::bwa_idx_load_from_disk] read 0 ALT contigs
+[M::process] read 10000 sequences (1000000 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 4432, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (464, 496, 532)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (328, 668)
+[M::mem_pestat] mean and std.dev: (497.63, 50.00)
+[M::mem_pestat] low and high boundaries for proper pairs: (260, 736)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::mem_process_seqs] Processed 10000 reads in 0.397 CPU sec, 0.406 real sec
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa mem Arabidopsis_thaliana.TAIR10.dna.chromosome.Mt.fa l5.R1.fq l5.R2.fq
+[main] Real time: 0.541 sec; CPU: 0.415 sec
+[M::bwa_idx_load_from_disk] read 0 ALT contigs
+[M::process] read 10000 sequences (1000000 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 4432, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (464, 496, 532)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (328, 668)
+[M::mem_pestat] mean and std.dev: (497.63, 50.00)
+[M::mem_pestat] low and high boundaries for proper pairs: (260, 736)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::mem_process_seqs] Processed 10000 reads in 0.397 CPU sec, 0.407 real sec
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa mem Arabidopsis_thaliana.TAIR10.dna.chromosome.Mt.fa l6.R1.fq l6.R2.fq
+[main] Real time: 0.544 sec; CPU: 0.415 sec
+[M::bwa_idx_load_from_disk] read 0 ALT contigs
+[M::process] read 10000 sequences (1000000 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 4432, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (464, 496, 532)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (328, 668)
+[M::mem_pestat] mean and std.dev: (497.63, 50.00)
+[M::mem_pestat] low and high boundaries for proper pairs: (260, 736)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::mem_process_seqs] Processed 10000 reads in 0.397 CPU sec, 0.406 real sec
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa mem Arabidopsis_thaliana.TAIR10.dna.chromosome.Mt.fa l7.R1.fq l7.R2.fq
+[main] Real time: 0.542 sec; CPU: 0.416 sec
+[M::bwa_idx_load_from_disk] read 0 ALT contigs
+[M::process] read 10000 sequences (1000000 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 4432, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (464, 496, 532)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (328, 668)
+[M::mem_pestat] mean and std.dev: (497.63, 50.00)
+[M::mem_pestat] low and high boundaries for proper pairs: (260, 736)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::mem_process_seqs] Processed 10000 reads in 0.397 CPU sec, 0.407 real sec
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa mem Arabidopsis_thaliana.TAIR10.dna.chromosome.Mt.fa l8.R1.fq l8.R2.fq
+[main] Real time: 0.543 sec; CPU: 0.416 sec
+[M::bwa_idx_load_from_disk] read 0 ALT contigs
+[M::process] read 10000 sequences (1000000 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 4432, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (464, 496, 532)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (328, 668)
+[M::mem_pestat] mean and std.dev: (497.63, 50.00)
+[M::mem_pestat] low and high boundaries for proper pairs: (260, 736)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::mem_process_seqs] Processed 10000 reads in 0.396 CPU sec, 0.406 real sec
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa mem Arabidopsis_thaliana.TAIR10.dna.chromosome.Mt.fa l9.R1.fq l9.R2.fq
+[main] Real time: 0.544 sec; CPU: 0.415 sec
+[M::bwa_idx_load_from_disk] read 0 ALT contigs
+[M::process] read 10000 sequences (1000000 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 4432, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (464, 496, 532)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (328, 668)
+[M::mem_pestat] mean and std.dev: (497.63, 50.00)
+[M::mem_pestat] low and high boundaries for proper pairs: (260, 736)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::mem_process_seqs] Processed 10000 reads in 0.397 CPU sec, 0.407 real sec
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa mem Arabidopsis_thaliana.TAIR10.dna.chromosome.Mt.fa l10.R1.fq l10.R2.fq
+[main] Real time: 0.545 sec; CPU: 0.415 sec
 [M::bwa_idx_load_from_disk] read 0 ALT contigs
 [E::main_mem] fail to open file `l11.R1.fq'.
 [M::bwa_idx_load_from_disk] read 0 ALT contigs
