@@ -1,0 +1,84 @@
+Mason Lien
+
+Hackathon3
+
+### Homework
+
+Your homework is to complete the following two tasks:
+1. Make sure you're comfortable submitting you're comfortable submitting jobs on Crane and saving models. Submit a job to `cse479` and put the job id from the submission in a text file along with;
+2. Think about the question posed above about dropout, "why isn't the difference between the number of zeros before and after applying dropout exactly equal to the dropout proportion?" Consider the network architecture and what operations were run before the dropout layer. Write a few sentences about this in the same text file as the previous question and submit to Canvas.
+
+I'm expecting this to take about an hour (or less if you're experienced). Feel free to use any code from this or previous hackathons. If you don't understand how to do any part of this or if it's taking you longer than that, please let me know in office hours or by email (both can be found on the syllabus). I'm also happy to discuss if you just want to ask more questions about anything in this notebook!
+
+
+JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
+32119990    cse479 submit_g masonlie  R       0:03      1 c3301
+
+
+The reason the number of zeros before and after applying dropout arent equal to the dropout proportion is because "rate" is the probability that any neuron will be dropped out during the training process. with a 100 neurons it wont land on 0.2 of the data, but if you greatly increase number of neurons youll get a closer number to 0.2. the definition of rate in the documentation in keras is the probability that each element is dropped. 
+
+
+below is the cat for submit_gpu.out and submit_gpu.err for job 32119990
+
+
+[masonlien@login.crane log]$ cat submit_gpu.out 
+tf.Tensor(
+[[0.        1.0278916 2.890605  0.        0.        0.        0.
+  0.        0.9832387 0.5180203]
+ [0.        1.0278916 2.890605  0.        0.        0.        0.
+  0.        0.9832387 0.5180203]
+ [0.        1.0278916 2.890605  0.        0.        0.        0.
+  0.        0.9832387 0.5180203]], shape=(3, 10), dtype=float32)
+tf.Tensor(
+[[0.        1.0278916 2.890605  0.        0.        0.        0.
+  0.        0.9832387 0.5180203]
+ [0.        1.0278916 2.890605  0.        0.        0.        0.
+  0.        0.9832387 0.5180203]
+ [0.        1.0278916 2.890605  0.        0.        0.        0.
+  0.        0.9832387 0.5180203]], shape=(3, 10), dtype=float32)
+Something to think about: why isn't the difference exactly equal to the proportion we passed to dropout?
+
+
+[masonlien@login.crane log]$ cat submit_gpu.err 
+2021-02-10 15:40:55.969214: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudart.so.10.1
+2021-02-10 15:40:58.182919: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudart.so.10.1
+Matplotlib created a temporary config/cache directory at /tmp/matplotlib-pn66xfa7 because the default path (/home/agrobinf/masonlien/.config/matplotlib) is not a w
+ritable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotli
+b and to better support multiprocessing.
+2021-02-10 15:41:36.644567: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcuda.so.1
+2021-02-10 15:41:36.694690: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1716] Found device 0 with properties: 
+pciBusID: 0000:09:00.0 name: GeForce GTX 1080 Ti computeCapability: 6.1
+coreClock: 1.582GHz coreCount: 28 deviceMemorySize: 10.92GiB deviceMemoryBandwidth: 451.17GiB/s
+2021-02-10 15:41:36.694762: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudart.so.10.1
+2021-02-10 15:41:38.301797: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcublas.so.10
+2021-02-10 15:41:38.716811: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcufft.so.10
+2021-02-10 15:41:38.926081: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcurand.so.10
+2021-02-10 15:41:39.864659: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcusolver.so.10
+2021-02-10 15:41:40.011603: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcusparse.so.10
+2021-02-10 15:41:41.896853: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudnn.so.7
+2021-02-10 15:41:41.900293: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1858] Adding visible gpu devices: 0
+2021-02-10 15:41:41.900612: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN)to use the following CPU instructions in performance-critical operations:  SSE4.1 SSE4.2 AVX AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2021-02-10 15:41:42.066913: I tensorflow/core/platform/profile_utils/cpu_utils.cc:104] CPU Frequency: 3499915000 Hz
+2021-02-10 15:41:42.067018: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55aa9a141a60 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2021-02-10 15:41:42.067047: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2021-02-10 15:41:42.080461: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1716] Found device 0 with properties: 
+pciBusID: 0000:09:00.0 name: GeForce GTX 1080 Ti computeCapability: 6.1
+coreClock: 1.582GHz coreCount: 28 deviceMemorySize: 10.92GiB deviceMemoryBandwidth: 451.17GiB/s
+2021-02-10 15:41:42.080510: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudart.so.10.1
+2021-02-10 15:41:42.080547: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcublas.so.10
+2021-02-10 15:41:42.080574: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcufft.so.10
+2021-02-10 15:41:42.080600: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcurand.so.10
+2021-02-10 15:41:42.080625: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcusolver.so.10
+2021-02-10 15:41:42.080650: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcusparse.so.10
+2021-02-10 15:41:42.080689: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudnn.so.7
+2021-02-10 15:41:42.083447: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1858] Adding visible gpu devices: 0
+2021-02-10 15:41:56.949053: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1257] Device interconnect StreamExecutor with strength 1 edge matrix:
+2021-02-10 15:41:56.949133: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1263]      0 
+2021-02-10 15:41:56.949154: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1276] 0:   N 
+2021-02-10 15:41:56.977372: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1402] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10273 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:09:00.0, compute capability: 6.1)
+2021-02-10 15:41:57.062123: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55aaad7f13a0 initialized for platform CUDA (this does not guarantee that XLA will be used). Devices:
+2021-02-10 15:41:57.062182: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): GeForce GTX 1080 Ti, Compute Capability 6.1
+2021-02-10 15:41:58.245948: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcublas.so.10
+2021-02-10 15:42:01.031445: W tensorflow/python/util/util.cc:348] Sets are not currently considered sequences, but this may change in the future, so consider avoiding using them.
+Zeros before and after: 0.53125 and 0.75

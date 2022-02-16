@@ -1,0 +1,6 @@
+Hackathon5
+
+Mason Lien
+
+A bottleneck residual block is a variant of the residual block that uses the 1x1 convolutions o create a bottleneck. The use of a bottleneck reduces the number of parameters and matrix multiplications. The idea is to make residual blocks as thin as possible to increase depth and have less parameters. Typicall bottleneck units have a stack of 3 layers (1x1, 3x3, 1x1). The 1x1 layers are to reduce the depth and then restore the depth of the input. For example if the input had a depth of 256, then the first 1x1 layer can reduce the depth to 64 and the 3x3 can then works on this less dense feature vector. the final 1x1 layer then restores it to the orignal depth of 256. Basically all this is doing is to increase the efficency. 
+
