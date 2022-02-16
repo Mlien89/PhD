@@ -1,0 +1,5 @@
+gene_id	gene_symbol	description	scientific_name	common_name	tax_id	genomic_range	orientation	location	gene_type	transcript_accession	transcript_name	transcript_length	transcript_cds_coords	protein_accession	isoform_name	protein_length	protein_name
+100779044	GIGANTEA	protein GIGANTEA	Glycine max	soybean	3847	NC_038256.2:40716239-40741242	-	chr 20	PROTEIN_CODING	NM_001354791.1	transcript variant 2	4225	NM_001354791.1:309-3836	NP_001341720.1		1175	protein GIGANTEA
+100779044	GIGANTEA	protein GIGANTEA	Glycine max	soybean	3847	NC_038256.2:40716239-40741242	-	chr 20	PROTEIN_CODING	NM_001354790.1	transcript variant 1	4335	NM_001354790.1:419-3946	NP_001341719.1		1175	protein GIGANTEA
+100779044	GIGANTEA	protein GIGANTEA	Glycine max	soybean	3847	NC_038256.2:40716239-40741242	-	chr 20	PROTEIN_CODING	XM_006606114.4	transcript variant X2	4247	XM_006606114.4:335-3862	XP_006606177.1	isoform X1	1175	protein GIGANTEA
+100779044	GIGANTEA	protein GIGANTEA	Glycine max	soybean	3847	NC_038256.2:40716239-40741242	-	chr 20	PROTEIN_CODING	XM_006606112.4	transcript variant X1	4300	XM_006606112.4:388-3915	XP_006606175.1	isoform X1	1175	protein GIGANTEA
