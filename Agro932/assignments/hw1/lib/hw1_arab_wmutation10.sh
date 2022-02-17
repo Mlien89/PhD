@@ -1,7 +1,7 @@
 #!/bin/bash -l
 #SBATCH -D /common/agrobinf/masonlien/PhD/Agro932/assignments/hw1/agro932_hw1/
-#SBATCH -o /common/agrobinf/masonlien/PhD/Agro932/assignments/hw1/agro932_hw1/logs/hw1/hw1_arab_out.txt
-#SBATCH -e /common/agrobinf/masonlien/PhD/Agro932/assignments/hw1/agro932_hw1/logs/hw1/hw1_arab_err.txt
+#SBATCH -o /common/agrobinf/masonlien/PhD/Agro932/assignments/hw1/agro932_hw1/logs/hw1/hw1_arab_wmutation10_out.txt
+#SBATCH -e /common/agrobinf/masonlien/PhD/Agro932/assignments/hw1/agro932_hw1/logs/hw1/hw1_arab_wmutation10_err.txt
 #SBATCH -J hw1_arab
 #SBATCH -t 24:00:00
 
